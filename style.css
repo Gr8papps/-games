@@ -1,22 +1,22 @@
 :root
 .dark-mode {
-    --primary: #00ff00;
-    --primary-hover: #004400;
-    --primary-light: rgba(155, 255, 155, 0.15);
-    --primary-lighter: rgba(0, 255, 0, 0.08);
+    --primary: #000000;
+    --primary-hover: #000000;
+    --primary-light: rgba(255, 0, 0, 0.15);
+    --primary-lighter: rgba(155, 0, 0, 0.08);
     --accent: #a855f7;
     --accent-light: rgba(168, 85, 247, 0.15);
     --success: #34d399;
     --warning: #fbbf24;
-    --text: #00ff00;
-    --text-muted: #006600;
-    --text-light: #00ff00;
-    --bg: #006600;
+    --text: #ff0000;
+    --text-muted: #770000;
+    --text-light: #ff0000;
+    --bg: #000000;
     --bg-secondary: #ff0000;
     --surface: #1e293b;
     --surface-hover: #334155;
-    --border: #334155;
-    --border-light: #475569;
+    --border: #770000;
+    --border-light: #ff0000;
     --glass: rgba(30, 41, 59, 0.8);
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.4);
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.5), 0 1px 2px -1px rgb(0 0 0 / 0.5);
@@ -24,9 +24,9 @@
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.6), 0 4px 6px -4px rgb(0 0 0 / 0.6);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.7), 0 8px 10px -6px rgb(0 0 0 / 0.7);
     --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.4);
-    --gradient-primary: linear-gradient(135deg, #ff0000 0%, #00ff00 100%);
-    --gradient-accent: linear-gradient(135deg, #ff0000 0%, #00ff00 100%);
-    --gradient-surface: linear-gradient(135deg, #ff0000 0%, #00ff00 100%);
+    --gradient-primary: linear-gradient(135deg, #ff0000 0%, #000000 100%);
+    --gradient-accent: linear-gradient(135deg, #ff0000 0%, #000000 100%);
+    --gradient-surface: linear-gradient(135deg, #ff0000 0%, #000000 100%);
 }
 
 * {
